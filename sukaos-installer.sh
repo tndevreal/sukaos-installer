@@ -147,7 +147,7 @@ chown "$TARGET_USER":"$TARGET_USER" "$TARGET_HOME/.xinitrc"
 #install packages
 
 
-pacman -Sy --noconfirm opendoas rofi dunst picom polybar xdg-desktop-portal-gtk 
+pacman -Sy --noconfirm opendoas rofi dunst picom polybar xdg-desktop-portal-gtk feh  
 
 backup_file /etc/doas.conf
 cat >/etc/doas.conf <<EOF
