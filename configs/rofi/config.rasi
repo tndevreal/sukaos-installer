@@ -1,0 +1,17 @@
+configuration {
+    modi: "drun,run,window";
+    font: "JetBrainsMono Nerd Font 11";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    display-drun: "Apps";
+    display-run: "Run";
+    display-window: "Windows";
+    drun-display-format: "{name}";
+    matching: "fuzzy";
+    cycle: true;
+
+    kb-accept-entry: "Return";
+}
+
+@theme "dark-modern"
+

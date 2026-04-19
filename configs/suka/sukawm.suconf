@@ -1,0 +1,21 @@
+//autorun
+autorun='picom; kitty feh --bg-fill ~/walp.jpg; ~/.config/polybar/launch.sh; /usr/lib/xdg-desktop-portal-gtk & ; dunst; '
+//binds
+bind Alt+T, exec='kitty';
+bind Alt+Return, exec='kitty';
+bind Alt+LMB, exec='MoveWindow';
+bind Alt+RMB, exec='ResizeWindow';
+bind Alt+Control+LMB, exec='MoveCanvas';
+bind Alt+Q, exec='KillWindow';
+bind Alt+A, exec='rofi -show drun';
+bind Alt+V, exec='JumpToWin';
+//xf86 binds
+bind XF86AudioMute, exec='pactl set-sink-mute @DEFAULT_SINK@ toggle';
+bind XF86AudioLowerVolume, exec='pactl set-sink-volume @DEFAULT_SINK@ -5%';
+bind XF86AudioRaiseVolume, exec='pactl set-sink-volume @DEFAULT_SINK@ +5%';
+bind XF86MonBrightnessDown, exec='brightnessctl set 5%-';
+bind XF86MonBrightnessUp, exec='brightnessctl set +5%';
+
+
+
+

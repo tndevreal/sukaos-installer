@@ -1,0 +1,65 @@
+* {
+    background-color: #0f0f0f;
+    text-color: #e5e5e5;
+
+    accent: #4f8cff;
+    selected-bg: #2a2a2a;
+    urgent-fg: #ff4f4f;
+
+    border-radius: 10px;
+    padding: 6px;
+    spacing: 6px;
+}
+
+window {
+    background-color: #0f0f0f;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+inputbar {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+prompt {
+    text-color: @accent;
+}
+
+textbox {
+    text-color: #e5e5e5;
+}
+
+entry {
+    text-color: #e5e5e5;
+}
+
+listview {
+    background-color: #0f0f0f;
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    background-color: #0f0f0f;
+    text-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+element selected {
+    background-color: @selected-bg;
+    text-color: @accent;
+}
+
+element urgent {
+    text-color: @urgent-fg;
+}
+
+message {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 10px;
+}
+
